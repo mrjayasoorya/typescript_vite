@@ -1,0 +1,27 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "watch": "tsc --watch",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "lite-server": {
+    "server": {
+      "baseDir": "./dist/*"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}
